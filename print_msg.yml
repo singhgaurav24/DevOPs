@@ -1,0 +1,10 @@
+---
+ - name: THis is for pracatice
+   hosts: localhost
+   tasks: 
+   - name: Printing message
+     debug: 
+      msg: 
+       -  "hello! gaurav welcome to ansible playbbok"
+       -  "This is golu"
+       -  "HIIIIIIIII Hello"
